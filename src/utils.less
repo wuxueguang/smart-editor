@@ -1,0 +1,124 @@
+/* utils start */
+.heading() {
+  margin-top: 0;
+  padding: 8px 0;
+  margin-bottom: 0;
+  color: #000;
+  font-weight: 500;
+}
+
+.heading-one() {
+  .heading;
+  font-size: 24px;
+  line-height: 1.333;
+}
+
+.heading-three() {
+  .heading;
+  font-size: 18px;
+  line-height: 1.333;
+}
+
+.heading-four() {
+  .heading;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.paragraph() {
+  margin: 0;
+  padding: 8px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  word-break: break-all;
+}
+
+.dash-rect() {
+  background: #fff5f0;
+  border: 1px dashed #ed5832;
+  border-radius: 2px;
+}
+
+.input-nounderline() {
+  padding: 0 4px;
+  border-bottom: solid 1px transparent;
+}
+
+.input-underline() {
+  padding: 0 6px;
+  border-bottom: solid 1px #000;
+}
+
+.editable-blocks() {
+  h1,
+  .heading-one {
+    .heading-one;
+  }
+
+  h3,
+  .heading-three {
+    .heading-three;
+  }
+
+  h4,
+  .heading-four {
+    .heading-four;
+  }
+
+  p,
+  .paragraph {
+    .paragraph;
+  }
+}
+/* utils end */
+
+/* global styles start */
+.heading-one {
+  .heading-one;
+}
+
+.heading-three {
+  .heading-three;
+}
+
+.heading-four {
+  .heading-four;
+}
+
+.paragraph {
+  .paragraph;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.omit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+/* global styles end */

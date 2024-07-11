@@ -1,0 +1,20 @@
+@import url('../../utils.less');
+
+/** index start */
+.smart-editor-editable-container {
+  min-height: 300px;
+
+  &.edit-struct-mode {
+    flex-grow: 1;
+  }
+
+  & > div > div {
+    outline: none;
+
+    [data-slate-placeholder="true"] {
+      line-height: 40px;
+    }
+  }
+
+  .editable-blocks;
+}

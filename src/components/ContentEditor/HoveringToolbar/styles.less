@@ -1,0 +1,25 @@
+.hover-toolbar-container {
+  position: fixed;
+  display: inline-block;
+  z-index: 10000;
+  top: -10000px;
+  left: -10000px;
+  margin-top: -6px;
+  transition: opacity 0.75s;
+
+  a {
+    display: inline-block;
+    border-radius: 4px;
+
+    color: #ddd;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 4px;
+    background-color: rgba(29, 29, 31);
+  }
+
+  a:hover {
+    color: #fff;
+    background-color: rgba(29, 29, 31, 0.9);
+  }
+}

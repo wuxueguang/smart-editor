@@ -1,0 +1,40 @@
+@import url('../../utils.less');
+
+.smart-editor-catalog-container {
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 16px 16px 16px 0;
+
+  .heading-container {
+    width: 100%;
+    color: '#1d1d1f';
+
+    .inner-container {
+      display: block;
+      box-sizing: border-box;
+      padding-left: 16px;
+      border-left: solid 3px transparent;
+      line-height: 24px;
+      color: #1d1d1f;
+
+      .heading {
+        height: 16px;
+        font-size: 16px;
+        line-height: 1;
+      }
+
+      &:hover,
+      &.active {
+        color: #ed5832;
+      }
+
+      &.active {
+        border-left-color: #ed5832;
+      }
+    }
+  }
+
+  .heading-container + .heading-container {
+    margin-top: 16px;
+  }
+}

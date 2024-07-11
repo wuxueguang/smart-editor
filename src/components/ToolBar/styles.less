@@ -1,0 +1,37 @@
+@import url('../../utils.less');
+
+.smart-editor-toolbar-container {
+  border: solid 1px #e9e9e9;
+  border-left: none;
+  border-right: none;
+  padding: 6px 16px;
+}
+
+.tool-button,
+.tool-list-container {
+  display: inline-block;
+  padding: 6px 10px;
+  color: #666;
+}
+
+.tool-button {
+  &:hover {
+    color: #666;
+    background-color: #f5f5f5;
+  }
+
+  &.active {
+    background-color: #fff5f0;
+  }
+}
+
+.tool-list-container {
+  display: flex;
+  border: solid 1px #d9d9d9;
+  justify-content: space-between;
+
+  &:hover {
+    color: #666;
+    border-color: #ed5832;
+  }
+}
